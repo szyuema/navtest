@@ -1,0 +1,176 @@
+body {
+	font-size:12px;
+	font-family:"宋体", Arial, Verdana;
+	background:#e7e7e7;
+}
+body, p, ul, li, h1, h2, h3, h4, h5, h6, img, dd, dt, dl, ol, form {
+	padding:0px;
+	margin:0px;
+}
+ul, ol {
+	list-style-type:none;
+}
+img {
+	border:none;
+}
+em {
+	font-style:normal;
+}
+a:link, a:visited {
+	text-decoration:none;
+	color:#000;
+}
+a:hover, a:active {
+	color:#000;
+	text-decoration:underline;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right
+}
+.hr10 {
+	height:10px;
+	width:100%;
+	clear:both;
+}
+.hr20 {
+	height:20px;
+	width:100%;
+	clear:both;
+}
+table {
+	BORDER-RIGHT: 0px;
+	BORDER-TOP: 0px;
+	BORDER-LEFT: 0px;
+	BORDER-BOTTOM: 0px;
+	BORDER-COLLAPSE: collapse;
+}
+
+.def{
+	    margin: 0px auto;
+    padding: 0px;
+    width: 1002px;
+    background: #fff;
+}
+
+ /*header beg*/
+
+.header {
+	height:98px;
+	/*background:url(../images/index_01.jpg) no-repeat;*/
+	background-color: blue
+}
+
+.header-nav {
+	width:670px;
+	height:35px;
+	padding:37px 28px 0 0;
+	float:right;
+}
+
+.header-nav ul {
+	display:inline;
+}
+
+.header-nav li {
+	display:block;
+	float:left;
+	background:url(../images/index_03.jpg) no-repeat left top;
+}
+
+.header-nav li a {
+	float:left;
+	display:block;
+	height:35px;
+	line-height:35px;
+	color:#FFF;
+	font-size:14px;
+	padding:0 12px 0 12px;
+	margin:0 1px;
+	text-decoration:none;
+}
+
+.header-nav li a:hover {
+	color:#FF0;
+}
+
+.header-nav li #line {
+	background:url(../images/index_03.jpg) no-repeat right top;
+}
+
+.header-nav a {
+	background:url(../images/navbg_02.jpg) no-repeat 0 35px;
+}
+
+
+/* header end*/
+
+.content {
+	margin:8px 8px 0 8px;
+	background:url(../images/contbg_05.jpg) repeat-y;
+	float:left;
+}
+
+/*left beg*/
+
+.left {
+	width:210px;
+	float:left;
+	padding:0 20px;
+}
+
+.webmaster {
+	background:url(../images/index_05.jpg) no-repeat;
+	height:205px;
+	width:190px;
+	padding:60px 10px 0 10px;
+	line-height:1.8em;
+	margin:0 0 20px 0;
+	color:#FFF;
+}
+
+.siderbox {
+	height:250px;
+	padding:20px 10px 15px 10px;
+}
+.siderbox h4 {
+	padding:0 0 15px 0;
+	font-size:12px;
+	text-align:right;
+	font-weight:normal;
+}
+.siderbox li {
+	display:block;
+}
+.siderbox li a {
+	display:block;
+	line-height:24px;
+	height:24px;
+	border-bottom:#CCC dotted 1px;
+	padding:0 0 0 10px;
+	background:url(../images/index_18.jpg) no-repeat left center;
+	color:#FFF
+}
+.con {
+	background:url(../images/index_16.jpg) no-repeat;
+	margin:15px 0 0 0;
+}
+.classic {
+	background:url(../images/index_22.jpg) no-repeat;
+}
+.bus {
+	background:url(../images/index_24.jpg) no-repeat;
+}
+
+
+/*left end*/
+
+
+
+.right {
+	width:692px;
+	float:right;
+	padding:12px 23px 0 20px;
+}
